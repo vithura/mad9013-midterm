@@ -1,0 +1,133 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: roboto, "Times New Roman", sans-serif;
+    /*font-family: font stack required for body text */
+}
+h1, h2, h3, h4{
+    font-family: spectral,"playfair display",serif;
+    padding: 10px;
+    padding-left:25px;
+    font-size: 1,997em;
+    /*font-family: font stack required for headings */
+}
+p{
+    margin: 10px;
+    padding-left: 25px;
+    
+}
+.container{
+    max-width: 1500px;
+    
+}
+.subnav{
+    background-color: hsl(195, 30%, 40%);
+    display: flex;
+    align-content: flex-end;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.subnav a{
+    padding: 25px;
+    color: hsl(207, 100%, 50%);
+    
+}
+.mainnav{
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700;
+    width: 100%;
+    
+}
+.mainnav a{
+    display: inline-flex;
+    position: relative;
+    width: 24%;
+
+    border-bottom-style: solid;
+    border-color: hsl(195, 30%, 40%);
+    border-width:5px;
+    padding: 10px;
+    
+    color: hsl(199, 20%, 19%);
+    text-decoration: none;
+}
+.masthead{
+    
+}
+.times-logo{
+    width: 100%;
+    
+}
+.masthead h1{
+    
+}
+.content{
+    
+}
+.content .story{
+    
+}
+.story.lead-story{
+    font-size: 1.414em;
+    
+}
+h1.story-title{
+    
+}
+.story img{
+    float: left;
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 14em;
+    height: 12em;
+    
+}
+.story p{
+    
+}
+.story blockquote{
+    padding-left: 65px;
+    font-style: italic;
+    quotes: "\201E" "\201D";
+}
+.story blockquote::before{
+    content: open-quote;
+}
+.story blockquote::after{
+    content: close-quote;
+}
+.story p.byline{
+    
+}
+p.byline span.author{
+    
+}
+p.byline span.pub{
+    
+}
+.foot{
+    padding: 20px;
+    
+}
+.foot p{
+    
+}
+
+@media screen and (max-width: 650px){
+    body{
+        background-color: hsl(169, 30%, 50%);
+        float: none;
+        width: 100%;
+        font-size: 0.609em;
+    }
+
+}
